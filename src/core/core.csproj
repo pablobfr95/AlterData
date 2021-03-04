@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>Alterdata.Bimer.Core</AssemblyName>
+    <PackageId>Alterdata.Bimer.Core</PackageId>
+    <RootNamespace>Alterdata.Bimer.Core</RootNamespace>
+    <GenerateFullPaths>true</GenerateFullPaths>
+    <OutputType>library</OutputType>
+    <!-- <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile> -->
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Version>1.0.0.0</Version>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Authors>Desenvolvimento da Alterdata</Authors>
+    <Company>Alterdata Software</Company>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <AssemblyTitle>Alterdata.Bimer.Core</AssemblyTitle>
+    <Description>
+      Biblioteca com o core.
+    </Description>
+    <Copyright>Copyright © Alterdata Software</Copyright>
+    <UserSecretsId>Alterdata Software</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="2.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="3.1.2" />
+    <PackageReference Include="NpgSQL" Version="4.1.3.1" />
+  </ItemGroup>
+
+</Project>
